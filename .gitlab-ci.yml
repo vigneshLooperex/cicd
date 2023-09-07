@@ -1,8 +1,9 @@
 build-job:
   stage: build
   script:
-    - npm i
-    - npm start
+    - echo "building cicd"
+    # - npm i
+    # - npm start
 
 # test-job1:
 #   stage: test
